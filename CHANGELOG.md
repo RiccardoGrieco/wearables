@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- Changed forceStrict to false when writing on ports. (https://github.com/robotology/wearables/pull/137)
+
 ## [1.2.2] - 2021-10-28
 
 ### Removed
