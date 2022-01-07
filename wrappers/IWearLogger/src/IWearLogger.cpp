@@ -288,7 +288,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -322,7 +322,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -352,7 +352,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -383,7 +383,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -414,7 +414,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -445,7 +445,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -476,7 +476,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -507,7 +507,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -541,7 +541,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -572,7 +572,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -604,7 +604,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -635,7 +635,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -679,7 +679,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -717,7 +717,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
@@ -754,7 +754,7 @@ void IWearLogger::run()
                     yarp::sig::Vector& data = port->prepare();
                     pImpl->prepareYarpBottle(saveVar, data);
                     port->setEnvelope(timestamp);
-                    port->write(true);
+                    port->write();
                 }
             }
         }
